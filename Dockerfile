@@ -53,8 +53,7 @@ RUN dotnet_sdk_version=3.1.301 \
     && dotnet help
 
 # Copy notebooks
-
-COPY ./notebooks/ ${HOME}/notebooks/
+# COPY ./notebooks/ ${HOME}/notebooks/
 
 # Copy package sources
 
